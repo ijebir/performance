@@ -1,0 +1,93 @@
+body{
+	background: radial-gradient(circle, #808080 25%, #111111 90%);
+
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.greeting{
+	font-size: 15vmin;
+	color: #FFFFFF;
+	
+	text-align: center;
+	
+	margin: 0px;
+	margin-top: 5vh;
+}
+
+.warn{
+	font-size: 10vmin;
+	color: red;
+
+	text-align: center;
+
+	margin: 0px;
+	margin-top: 3vh;
+}
+
+.loginform{
+	width: 80%;
+	height: auto;
+
+	background: linear-gradient(to right, #111111 1%, #050505 20%, #000000 50%);
+	
+	font-family: Consolas,monaco,monospace;
+	color: #FFFFFF;
+	font-size: 2.5vw;
+
+	position: relative;
+
+	margin: 0 auto;
+	border: 1vh solid;
+	border-color: #FFFFFF;
+	padding: 5%;
+}
+
+.input{
+	height: 5vh;
+	width: 70%;
+
+	font-size: 2.25vw;
+
+	float: right;
+
+	margin: 0 auto;
+	border: 0.5vh solid;
+	border-color: #777777;
+}
+
+.prompt{
+	height: 5vh;
+	width: 80%;
+
+	position: relative;
+
+	margin: 0 auto;
+	border: 0px;
+	padding: 0px;
+}
+
+#loginbutton{
+	width: 50%;
+	height: 6vh;
+
+	background-color: #FFFFFF;
+
+	display: block;
+
+	margin: 0 auto;
+	margin-top: 5vh;
+	border: 0.5vh solid;
+	border-color: #777777;
+
+	cursor: pointer;
+}
+
+#lock{
+	height: 4.5vh;
+	width: 4.5vh;
+}

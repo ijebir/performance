@@ -1,0 +1,169 @@
+body{
+	background: radial-gradient(circle, #808080 25%, #111111 90%);
+
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.greeting{
+	font-size: 5vw;
+	color: #FFFFFF;
+	
+	text-align: center;
+	
+	margin: 0px;
+	margin-top: 5vh;
+}
+
+.navigation{
+	font-family: Consolas,monaco,monospace;
+	color: #E0E0E0;
+	text-align: center;
+	
+	width: 80%;
+	
+	background: linear-gradient(to right, #111111 1%, #050505 20%, #000000 50%);
+	
+	position: relative;
+	
+	margin: 0 auto;
+	margin-top: 3vh;
+	border: 0.5vh solid;
+	border-color: #FFFFFF;
+	padding: 1vh;
+}
+
+#skipback{
+	height: 3vw;
+	width: 3vw;
+	
+	cursor: pointer;
+	
+	float: left;
+}
+
+#back{
+	height: 3vw;
+	width: 3vw;
+	
+	cursor: pointer;
+	
+	float: left;
+}
+
+#subject{
+	font-size: 2.125vw;
+}
+
+#delete{
+	height: 3vw;
+	width: 3vw;
+	
+	cursor: pointer;
+	
+	float: right;
+}
+
+#forward{
+	height: 3vw;
+	width: 3vw;
+	
+	cursor: pointer;
+	
+	float: right;
+}
+
+#skipforward{
+	height: 3vw;
+	width: 3vw;
+	
+	cursor: pointer;
+	
+	float: right;
+}
+
+.content{
+	height: 50vh;
+	width: 80%;
+	
+	font-family: Consolas,monaco,monospace;
+	font-size: 1.75vw;
+	color: #E0E0E0;
+	
+	background: linear-gradient(to right, #111111 1%, #050505 20%, #000000 50%);
+	
+	position: relative;
+	
+	margin: 0 auto;
+	margin-top: 3vh;
+	border: 0.5vh solid;
+	border-color: #FFFFFF;
+	padding: 1vh;
+}
+
+.key{
+	height: 5vh;
+	width: 70%;
+
+	position: relative;
+
+	margin: 0 auto;
+}
+
+#messagekey{
+	height: 35vh;
+}
+
+#name{
+	width: 70%;
+	height: 3vh;
+	
+	background-color: #FFFFFF;
+	
+	font-size: 2.5vh;
+	color: #000000;
+	
+	float: right;
+
+	margin: 0px;
+	border: 0.5vh solid;
+	border-color: #777777;
+}
+
+#email{
+	width: 70%;
+	height: 3vh;
+	
+	background-color: #FFFFFF;
+	
+	font-size: 2.5vh;
+	color: #000000;
+	
+	float: right;
+
+	margin: 0 auto;
+	border: 0.5vh solid;
+	border-color: #777777;
+}
+
+#message{
+	width: 70%;
+	height: 30vh;
+	
+	background-color: #FFFFFF;
+	
+	font-size: 2.5vh;
+	color: #000000;
+	
+	float: right;
+
+	margin: 0 auto;
+	border: 0.5vh solid;
+	border-color: #777777;
+
+	overflow-y: scroll;
+}
